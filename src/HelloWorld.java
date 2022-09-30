@@ -18,5 +18,9 @@ public class HelloWorld {
         short maxShortValue=Short.MAX_VALUE;
         System.out.println("Short minimum value = "+ minShortValue + " and maximum value = " + maxShortValue);
 
+        int total = (minIntValue / 2);
+        byte newByteValue = (byte) (minByteValue / 2);
+
+        short newShortValue = (short) (minShortValue / 2);
     }
 }
