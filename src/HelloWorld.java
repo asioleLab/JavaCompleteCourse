@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class HelloWorld {
 
     public static void main(String[] args){
@@ -22,5 +24,13 @@ public class HelloWorld {
         byte newByteValue = (byte) (minByteValue / 2);
 
         short newShortValue = (short) (minShortValue / 2);
+
+        Scanner scanner = new Scanner(System.in);
+        String myString = scanner.next();
+        int myInt = scanner.nextInt();
+        scanner.close();
+
+        System.out.println("myString is: " + myString);
+        System.out.println("myInt is: " + myInt);
     }
 }
