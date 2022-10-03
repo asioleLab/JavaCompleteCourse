@@ -13,7 +13,7 @@ public class MainAccount {
 
         //POST CONSTRUCT
         Account bobsAccount = new Account("12345", 0.00, "Bob Brown", "bob@email.com", "12345678951") ;
-
+        System.out.println("Number is "+ bobsAccount.getNumber());
 
         bobsAccount.withdrawal(100.0);
 
