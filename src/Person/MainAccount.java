@@ -23,6 +23,14 @@ public class MainAccount {
         bobsAccount.deposit(51.0);
         bobsAccount.withdrawal(100.0);
 
+        VipCustomer vipCustomer1 = new VipCustomer();
+        System.out.println(vipCustomer1.getName());
+
+        VipCustomer vipCustomer2 = new VipCustomer("UncleDonald", 100000);
+        System.out.println(vipCustomer2.getName());
+
+        VipCustomer vipCustomer3 = new VipCustomer("Tim", 500000, "mail@mail.com");
+        System.out.println(vipCustomer3.getName());
 
 
     }
