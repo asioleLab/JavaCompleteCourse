@@ -13,7 +13,8 @@ public class PC {
     }
 
     public void powerUp(){
-        getTheCase().pressPowerButton();
+     //   getTheCase().pressPowerButton();
+        theCase.pressPowerButton();
         drawLogo();
     }
 
