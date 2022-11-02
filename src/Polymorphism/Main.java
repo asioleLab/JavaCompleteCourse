@@ -53,7 +53,6 @@ class IronMan extends Movie{
         super("IronMan");
     }
 
-    @Override
     public String plot() {
         return "Genius man with money";
     }
