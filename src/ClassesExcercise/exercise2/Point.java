@@ -1,4 +1,4 @@
-package ClassesExcercise.ex2;
+package ClassesExcercise.exercise2;
 
 public class Point {
     private int x;

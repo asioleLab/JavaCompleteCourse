@@ -1,4 +1,4 @@
-package ClassesExcercise.ex1;
+package ClassesExcercise.exercise1;
 
 public class Wall {
 

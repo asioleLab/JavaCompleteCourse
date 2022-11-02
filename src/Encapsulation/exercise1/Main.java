@@ -1,4 +1,4 @@
-package Encapsulation.exercize1;
+package Encapsulation.exercise1;
 
 // Create a class and demonstate proper encapsulation techniques
 // the class will be called Printer

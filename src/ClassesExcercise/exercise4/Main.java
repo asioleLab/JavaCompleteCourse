@@ -1,4 +1,4 @@
-package ClassesExcercise.ex4;
+package ClassesExcercise.exercise4;
 
 public class Main {
 

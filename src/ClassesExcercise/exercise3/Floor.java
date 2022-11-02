@@ -1,4 +1,4 @@
-package ClassesExcercise.ex3;
+package ClassesExcercise.exercise3;
 
 public class Floor {
 
