@@ -1,6 +1,7 @@
 package Arrays.exercise1;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class SortedArray {
@@ -16,7 +17,7 @@ public class SortedArray {
         return values;
     }
 
-    public static int[] sortIntegers(int[] array) {
+    public static int[] sortIntegersBase(int[] array) {
         int[] sortedArray = Arrays.copyOf(array, array.length);
 
         boolean flag = true;
@@ -38,7 +39,21 @@ public class SortedArray {
         }
 
         return sortedArray;
+
     }
+
+    public static int[] sortIntegers(int[] array) {
+        int[] sortedArray = Arrays.copyOf(array, array.length);
+
+        sortedArray=Arrays.stream(sortedArray).boxed()
+                .sorted(Collections.reverseOrder())
+                .mapToInt(Integer::intValue)
+                .toArray();
+
+        return sortedArray;
+
+    }
+
 
     public static void printArray(int[] arraytoPrint){
         for(int i=0; i<arraytoPrint.length; i++) {

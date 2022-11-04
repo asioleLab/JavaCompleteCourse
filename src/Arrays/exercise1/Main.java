@@ -50,6 +50,9 @@ public class Main {
         SortedArray sortedArray=new SortedArray();
         int[] arrayToSort =sortedArray.getIntegers(5);
         arrayToSort=sortedArray.sortIntegers(arrayToSort);
+/*
+        arrayToSort=sortedArray.sortIntegersBase(arrayToSort);
+*/
         sortedArray.printArray(arrayToSort);
     }
 
