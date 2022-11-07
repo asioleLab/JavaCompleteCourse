@@ -18,22 +18,22 @@ public class MinimumElement {
         int[] values = new int[number];
 
         for(int i=0; i<values.length; i++) {
+            scanner.nextLine();
             values[i] = scanner.nextInt();
         }
-
         return values;
     }
 
     private static int findMin(int[] values){
-        int min= values[0];
+        int min= Integer.MAX_VALUE;
 
         for(int i=0; i<values.length; i++) {
-            if(values[i]<min){
-                min=values[i];
-            }
-            System.out.println("minimo è " + min);
-        }
+            int value = values[i];
 
+            if(value < min) {
+                min = value;
+            }
+        }
         return min;
     }
 
@@ -41,15 +41,14 @@ public class MinimumElement {
 
         int min = Arrays.stream(values).min().getAsInt();
         System.out.println("Il minimo parziale è " + min);
-
         return min;
     }
 
     public static void main(String[] args) {
         int number= readInteger();
         int[] array =readElements(number);
-//        int minimum= findMin(array);
-        int minimum= findMinCollection(array);
+       int minimum= findMin(array);
+        //       int minimum= findMinCollection(array);
 
         System.out.println("Il minimo è " + minimum);
     }
