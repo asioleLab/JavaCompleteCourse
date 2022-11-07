@@ -1,4 +1,4 @@
-package Arrays.exercise1;
+package Arrays.exercises.sort;
 
 import java.util.Arrays;
 import java.util.Collections;

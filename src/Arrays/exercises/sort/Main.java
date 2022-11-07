@@ -1,7 +1,5 @@
-package Arrays.exercise1;
+package Arrays.exercises.sort;
 
-
-import java.util.Scanner;
 
 /* Create a program using arrays that sorts a list of integers in descending order.
 Descending order is highest value to lowest.

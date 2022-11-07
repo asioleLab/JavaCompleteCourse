@@ -1,4 +1,4 @@
-package Arrays.exercise2;
+package Arrays.exercises.minimum;
 
 import java.util.Arrays;
 import java.util.Scanner;
