@@ -13,6 +13,15 @@ public class Main {
         System.out.println("***********************************");
         ScopeCheck.InnerClass innerClass = scopeInstance.new InnerClass();
         innerClass.timesTwo();
+
+
+        String varFour = "this is private to main()";
+
+        ScopeCheckTwo scopeInstanceTwo = new ScopeCheckTwo();
+        scopeInstanceTwo.useInner();
+
+        ScopeCheckTwo.InnerClassTwo innerClassTwo = scopeInstanceTwo.new InnerClassTwo();
+//        System.out.println("varThree is not accessible here " + innerClassTwo.varThree);
     }
 }
 
