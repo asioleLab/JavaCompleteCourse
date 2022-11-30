@@ -1,4 +1,4 @@
-package Composition.exercise1;
+package composition.exercise1;
 
 // Create a single room of a house using composition.
 // Think about the things that should be included in the room.

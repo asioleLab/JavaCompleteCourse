@@ -1,6 +1,4 @@
-package Car;
-
-import java.util.Locale;
+package car;
 
 public class Car {
 

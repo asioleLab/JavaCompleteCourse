@@ -1,4 +1,4 @@
-package Arrays.exercises.sort;
+package arrays.exercises.sort;
 
 
 /* Create a program using arrays that sorts a list of integers in descending order.

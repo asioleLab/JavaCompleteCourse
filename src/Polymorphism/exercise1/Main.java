@@ -1,4 +1,4 @@
-package Polymorphism.exercise1;
+package polymorphism.exercise1;
 
 
 // We are going to go back to the car analogy.

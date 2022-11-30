@@ -1,4 +1,4 @@
-package Vehicle;
+package vehicle;
 
 public class Outlander extends Car{
     private int roadServiceMonths;

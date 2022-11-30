@@ -1,4 +1,4 @@
-package Arrays.exercises.reverse;
+package arrays.exercises.reverse;
 
 import java.util.Arrays;
 

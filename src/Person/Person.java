@@ -1,4 +1,4 @@
-package Person;
+package person;
 
 public class Person {
     // write your code here

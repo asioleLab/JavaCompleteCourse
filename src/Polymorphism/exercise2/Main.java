@@ -1,4 +1,4 @@
-package Polymorphism.exercise2;
+package polymorphism.exercise2;
 
 
 // The purpose of the application is to help a fictitious company called Bills Burgers to manage

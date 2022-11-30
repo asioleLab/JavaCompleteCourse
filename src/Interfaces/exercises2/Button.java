@@ -1,4 +1,4 @@
-package Interfaces.exercises2;
+package interfaces.exercises2;
 
 public class Button {
 

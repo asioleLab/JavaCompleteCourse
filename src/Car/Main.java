@@ -1,6 +1,4 @@
-package Car;
-
-import Car.Car;
+package car;
 
 public class Main {
 

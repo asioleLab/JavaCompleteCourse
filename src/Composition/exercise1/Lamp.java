@@ -1,4 +1,4 @@
-package Composition.exercise1;
+package composition.exercise1;
 
 public class Lamp {
 

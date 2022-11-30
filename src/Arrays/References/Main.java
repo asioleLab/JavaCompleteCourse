@@ -1,4 +1,4 @@
-package Arrays.References;
+package arrays.references;
 
 import java.util.Arrays;
 

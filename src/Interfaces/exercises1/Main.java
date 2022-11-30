@@ -1,4 +1,4 @@
-package Interfaces.exercises1;
+package interfaces.exercises1;
 
 import java.util.ArrayList;
 import java.util.Scanner;

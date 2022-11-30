@@ -1,4 +1,4 @@
-package Encapsulation.exercise1;
+package encapsulation.exercise1;
 
 public class Printer {
 

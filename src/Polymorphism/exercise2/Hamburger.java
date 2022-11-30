@@ -1,4 +1,4 @@
-package Polymorphism.exercise2;
+package polymorphism.exercise2;
 
 public class Hamburger {
 
