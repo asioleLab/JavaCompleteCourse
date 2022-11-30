@@ -1,7 +1,5 @@
 package inheritance_exercise.animal;
 
-import java.util.Arrays;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -11,10 +9,5 @@ public class Main {
         dog.eat();
 //        dog.walk();
         dog.run();
-
-        dog.sleep(dog);
-
-        //dog.sleep("pippo");
-        dog.type(Arrays.asList(dog,new Fish("fishy",8,8,8,8,8)));
     }
 }
